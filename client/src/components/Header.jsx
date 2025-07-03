@@ -15,7 +15,7 @@ function Header() {
             <CiSearch className='text-slate-500' />
         </form>
         <ul className='flex gap-4'>
-            <li className='hidden sm:inline'><Link to='/'>Home</Link></li>
+            <li className='hidden sm:inline'><Link to='/Home'>Home</Link></li>
             <li className='hidden sm:inline'><Link to='/About'>About</Link></li>
             <li><Link to='/Signup'>Sign Up</Link></li>
         </ul>
