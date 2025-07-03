@@ -15,7 +15,7 @@ export default function Signup() {
     e.preventDefault();
     try {
       setLoading(true);
-      const res = await fetch('http://localhost:8080/user/signup', {
+      const res = await fetch('https://estate-fullstack.onrender.com/user/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
